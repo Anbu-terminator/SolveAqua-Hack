@@ -11,15 +11,15 @@ export default function OrganizationSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-           <div className="flex flex-wrap justify-center gap-6 md:gap-8">
+           <div className="flex flex-wrap justify-center gap-y-8 gap-x-6 md:gap-12">
               <motion.img 
                 src="https://i.postimg.cc/3NFgfCgG/SKP-LOGO-modified.png " 
                 alt="S.K.P Engineering College" 
-                className="h-20 w-auto animate-float"
+                className="h-16 md:h-20 w-auto animate-float"
                 style={{ animationDelay: '2s' }}
-                whileHover={{ scale: 1.1 }}
+                whileHover={{ scale: 1.5 }}
               />
-              <div className="text-center">
+              <div className="text-center mb-4 md:mb-6">
                 <p className="text-white text-2xl font-mono font-bold text-shadow-strong mb-3">SKP ENGINEERING COLLEGE</p>
                 <p className="text-white text-lg font-mono text-shadow-strong mb-2">Approved by AICTE & Affiliated to Anna University</p>
                 <p className="text-white text-lg font-mono text-shadow-strong mb-4">
@@ -37,16 +37,16 @@ export default function OrganizationSection() {
                 </motion.a>
               </div>
             </div>
-
+            
           <div className="flex flex-col space-y-8">
             <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
               <motion.img 
                 src="https://i.postimg.cc/j26DCM8F/VL-modified.png" 
                 alt="VLGE Institute" 
-                className="h-24 w-auto animate-float"
-                whileHover={{ scale: 1.1 }}
+                className="h-16 md:h-20 w-auto animate-float"
+                whileHover={{ scale: 1.5 }}
               />
-              <div className="text-center">
+              <div className="text-center mb-4 md:mb-6">
                 <p className="text-white text-lg md:text-xl lg:text-2xl font-mono text-shadow-strong font-semibold mb-4 px-4">
                   Organized by VLGE Institute Private Limited & CT Tech Solutions
                 </p>
@@ -75,9 +75,9 @@ export default function OrganizationSection() {
                 <motion.img
                   src="https://i.postimg.cc/xTgvK5jD/favicon-modified.png "
                   alt="CT Tech Solutions"
-                  className="h-16 md:h-24 w-auto animate-float"
+                  className="h-20 md:h-24 w-auto animate-float"
                   style={{ animationDelay: '1s' }}
-                  whileHover={{ scale: 1.1 }}
+                  whileHover={{ scale: 1.5 }}
                 />
               </motion.div>
             </div>
