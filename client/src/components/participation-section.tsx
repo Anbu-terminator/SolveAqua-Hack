@@ -27,7 +27,7 @@ export default function ParticipationSection() {
     },
     {
       icon: "fas fa-laptop",
-      text: "Registration Mode: Via Website",
+      text: "Registration Mode: Via Filling Registration Form",
       color: "text-mobility"
     },
     {
