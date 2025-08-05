@@ -51,7 +51,7 @@ export default function EvaluationSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Build a working website, app, or automation software based on the chosen domain within{' '}
+            Build a working website, app, or automation Hardware Simulation software based on the chosen domain within{' '}
             <span className="text-agritech font-bold">6 hours</span>.
           </motion.p>
           
