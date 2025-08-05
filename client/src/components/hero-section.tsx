@@ -32,14 +32,6 @@ export default function HeroSection({ onShowOnSpotModal }: HeroSectionProps) {
           >
             Register Now
           </motion.a>
-          <motion.button 
-            onClick={onShowOnSpotModal}
-            className="neon-border glassmorphism px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5 rounded-full text-white font-mono font-semibold hover:bg-mobility hover:text-white transition-all duration-300 text-shadow-strong bg-shadow-strong text-base sm:text-lg"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            OnSpot Registration
-          </motion.button>
         </motion.div>
       </div>
     </section>
